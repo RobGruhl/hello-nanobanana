@@ -110,7 +110,7 @@ name: Comic Book Panel
 description: Professional comic book style panel illustrations
 
 config:
-  model: gemini-2.0-flash-preview-image-generation
+  model: gemini-3-pro-image-preview
   aspect_ratio: "2:3"
 
 style_prefix: "Professional comic book panel illustration."
@@ -156,7 +156,7 @@ RPM_LIMIT=50       # Requests per minute
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `GOOGLE_API_KEY` | (required) | Google API key with Gemini access |
-| `GEMINI_MODEL` | `gemini-2.0-flash-preview-image-generation` | Default model |
+| `GEMINI_MODEL` | `gemini-3-pro-image-preview` | Default model |
 | `MAX_CONCURRENT` | `15` | Maximum concurrent requests |
 | `RPM_LIMIT` | `50` | Requests per minute limit |
 

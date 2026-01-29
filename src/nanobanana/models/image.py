@@ -39,7 +39,7 @@ class ImageConfig(BaseModel):
     """Configuration for image generation."""
 
     model: str = Field(
-        default="gemini-2.0-flash-preview-image-generation",
+        default="gemini-3-pro-image-preview",
         description="Gemini model ID for image generation"
     )
     aspect_ratio: AspectRatio = Field(

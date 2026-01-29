@@ -24,7 +24,7 @@ def get_api_key() -> str:
 
 def get_default_model() -> str:
     """Get the default Gemini model for image generation."""
-    return os.getenv("GEMINI_MODEL", "gemini-2.0-flash-preview-image-generation")
+    return os.getenv("GEMINI_MODEL", "gemini-3-pro-image-preview")
 
 
 def get_max_concurrent() -> int:
@@ -39,8 +39,9 @@ def get_rpm_limit() -> int:
 
 # Available models for image generation
 MODELS = {
-    "flash": "gemini-2.0-flash-preview-image-generation",
-    "pro": "gemini-2.0-flash-preview-image-generation",  # Alias
+    "flash": "gemini-2.0-flash-exp-image-generation",
+    "flash-25": "gemini-2.5-flash-image",
+    "pro": "gemini-3-pro-image-preview",
 }
 
 # Directory paths

@@ -3,7 +3,7 @@ name: Comic Book Panel
 description: Professional comic book style panel illustrations
 
 config:
-  model: gemini-2.0-flash-preview-image-generation
+  model: gemini-3-pro-image-preview
   aspect_ratio: "2:3"
 
 style_prefix: "Professional comic book panel illustration."
