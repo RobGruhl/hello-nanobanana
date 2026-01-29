@@ -1,0 +1,10 @@
+id: cinematic
+name: Cinematic Wide
+description: Cinematic widescreen shots with dramatic lighting
+
+config:
+  model: gemini-2.0-flash-preview-image-generation
+  aspect_ratio: "16:9"
+
+style_prefix: "Cinematic film still, dramatic lighting, shallow depth of field."
+style_suffix: "Professional cinematography, movie quality, atmospheric."

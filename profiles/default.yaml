@@ -1,0 +1,10 @@
+id: default
+name: Default Profile
+description: Standard settings for general image generation
+
+config:
+  model: gemini-2.0-flash-preview-image-generation
+  aspect_ratio: "2:3"
+
+style_prefix: ""
+style_suffix: ""
