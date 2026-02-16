@@ -37,6 +37,10 @@ ENV/
 # Output
 output/
 
+# Scratch
+tmp/
+*.log
+
 # OS
 .DS_Store
 Thumbs.db
